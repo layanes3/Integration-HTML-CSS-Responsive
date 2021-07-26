@@ -1,0 +1,56 @@
+/*head*/
+.titre {
+    color: white;
+    background-color: #a9a9a9;
+    font-family: Helvetica
+}
+
+.header {
+    background-color: #a9a9a9;
+    font-family: Helvetica;
+    padding: 1em;
+}
+
+.main {
+    display: flex;
+}
+
+/*aside*/
+.definition {
+    color: white; 
+    background-color: #6495ed;
+    font-family: Helvetica;
+    width: 40%;
+}
+
+.p1 {
+    line-height: 2em;
+    padding: 3%;
+}
+
+.p2 {
+    padding: 3%;
+}
+
+.article{
+    background-color: white ;
+    font-family: Helvetica;
+    width: 80%; 
+}
+
+.image{
+    box-shadow: 0px 3px 7px grey;
+    border-radius: 10px;
+}
+
+footer{
+    color:#008000;
+    background-color: #9acd32;
+    font-family: Helvetica
+}
+
+/* nouvelles règles si la fenetre ne dépasse pas 1024px de large*/
+@media screen and (max-width: 1024px)
+{
+    aside p:last-child
+}
